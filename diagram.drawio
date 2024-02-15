@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="QtdgglnyIc4WALxEzRb2" name="Page-1">
-        <mxGraphModel dx="1567" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1565" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -99,7 +99,7 @@
                 <mxCell id="23" value="" style="align=right;verticalAlign=top;spacingRight=2;" vertex="1" parent="1">
                     <mxGeometry x="180" y="330" width="120" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="Summer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;resizeWidth=1;" vertex="1" parent="23">
+                <mxCell id="24" value="Fall" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;resizeWidth=1;" vertex="1" parent="23">
                     <mxGeometry y="1" width="120" height="30" relative="1" as="geometry">
                         <mxPoint y="-30" as="offset"/>
                     </mxGeometry>
@@ -110,7 +110,7 @@
                 <mxCell id="25" value="" style="align=right;verticalAlign=top;spacingRight=2;" vertex="1" parent="1">
                     <mxGeometry x="320" y="330" width="120" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="Summer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;resizeWidth=1;" vertex="1" parent="25">
+                <mxCell id="26" value="Winter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;resizeWidth=1;" vertex="1" parent="25">
                     <mxGeometry y="1" width="120" height="30" relative="1" as="geometry">
                         <mxPoint y="-30" as="offset"/>
                     </mxGeometry>
@@ -121,7 +121,7 @@
                 <mxCell id="34" value="" style="align=right;verticalAlign=top;spacingRight=2;" vertex="1" parent="1">
                     <mxGeometry x="-100" y="430" width="120" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" value="Mushroom site&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;resizeWidth=1;" vertex="1" parent="34">
+                <mxCell id="35" value="Mushroom oversite" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;resizeWidth=1;" vertex="1" parent="34">
                     <mxGeometry y="1" width="120" height="30" relative="1" as="geometry">
                         <mxPoint y="-30" as="offset"/>
                     </mxGeometry>
@@ -132,7 +132,7 @@
                 <mxCell id="37" value="" style="align=right;verticalAlign=top;spacingRight=2;" vertex="1" parent="1">
                     <mxGeometry x="40" y="430" width="120" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="Mushroom site&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;resizeWidth=1;" vertex="1" parent="37">
+                <mxCell id="38" value="Mushroom oversite" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;resizeWidth=1;" vertex="1" parent="37">
                     <mxGeometry y="1" width="120" height="30" relative="1" as="geometry">
                         <mxPoint y="-30" as="offset"/>
                     </mxGeometry>
@@ -143,7 +143,7 @@
                 <mxCell id="39" value="" style="align=right;verticalAlign=top;spacingRight=2;" vertex="1" parent="1">
                     <mxGeometry x="180" y="430" width="120" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="Mushroom site&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;resizeWidth=1;" vertex="1" parent="39">
+                <mxCell id="40" value="Mushroom oversite" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;resizeWidth=1;" vertex="1" parent="39">
                     <mxGeometry y="1" width="120" height="30" relative="1" as="geometry">
                         <mxPoint y="-30" as="offset"/>
                     </mxGeometry>
@@ -154,7 +154,7 @@
                 <mxCell id="41" value="" style="align=right;verticalAlign=top;spacingRight=2;" vertex="1" parent="1">
                     <mxGeometry x="320" y="430" width="120" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="Mushroom site&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;resizeWidth=1;" vertex="1" parent="41">
+                <mxCell id="42" value="Mushroom oversite" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;resizeWidth=1;" vertex="1" parent="41">
                     <mxGeometry y="1" width="120" height="30" relative="1" as="geometry">
                         <mxPoint y="-30" as="offset"/>
                     </mxGeometry>
@@ -166,6 +166,15 @@
                     <mxGeometry y="1" width="160" height="30" relative="1" as="geometry">
                         <mxPoint y="-30" as="offset"/>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="Frontpage (webload)" style="text;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="40" width="200" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="Oversigt af svampe &lt;br&gt;udfra hvilken &lt;br&gt;sæson de findes i" style="text;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="-220" y="490" width="200" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="Oversigt af sæsonerne" style="text;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="205" width="200" height="25" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
