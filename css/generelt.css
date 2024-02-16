@@ -3,10 +3,35 @@
   src: url(../fonts/proteststrike-regular-webfont.woff2);
 }
 
-main {
+header,
+footer {
   background-color: rgba(46, 55, 34, 1);
 }
 
 h1 {
   font-family: protest;
+}
+
+.logo_pic {
+  max-width: 25%;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav a {
+  padding: 3em;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: right;
+  position: relative;
+  margin-bottom: -2px;
+  padding-bottom: 5px;
+}
+
+.active {
+  border-bottom: 2px solid rgb(255, 255, 255);
 }
