@@ -13,8 +13,12 @@ main {
 h1 {
   font-family: protest;
   text-align: center;
+  color: white;
 }
 
+p {
+  color: white;
+}
 .logo_pic {
   max-width: 25%;
 }
