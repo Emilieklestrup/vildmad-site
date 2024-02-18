@@ -1,0 +1,46 @@
+.grid_3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.svamp-link {
+  flex: 0 0 calc(33.33% - 20px); /* 33.33% - 20px for at have tre produkter på hver linje med plads imellem */
+  margin: 10px; /* Tilføj lidt plads mellem produkterne */
+}
+
+article {
+  /* Tilpas stilen på hvert produktartikel efter behov */
+  background-color: rgba(46, 55, 34, 1);
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  border: solid white 1px;
+}
+
+.oversigt_billede {
+  max-width: 100%;
+}
+
+.oversigt_tekst {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.read_more {
+  color: white;
+  text-align: center;
+  text-decoration-color: white;
+}
+.oversigt_info {
+  max-width: 600px;
+  margin: 0 auto;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 2;
+  text-align: center;
+}
