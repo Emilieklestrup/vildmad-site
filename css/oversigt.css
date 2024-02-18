@@ -7,6 +7,38 @@
   justify-content: center;
 }
 
+.season-list {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.season-list ul {
+  list-style: none;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.season-list ul li {
+  position: relative;
+}
+
+.season-list ul li a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+.season-list ul li a:hover:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+
 .svamp-link {
   flex: 0 0 calc(33.33% - 20px); /* 33.33% - 20px for at have tre produkter på hver linje med plads imellem */
   margin: 10px; /* Tilføj lidt plads mellem produkterne */
@@ -43,4 +75,5 @@ article {
   font-size: 18px;
   line-height: 2;
   text-align: center;
+  margin-bottom: 2em;
 }
