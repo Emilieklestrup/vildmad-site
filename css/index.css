@@ -1,0 +1,12 @@
+.forsidetekst {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+.link {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border: 5px white; /* virker ikke */
+}
