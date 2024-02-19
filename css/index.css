@@ -13,16 +13,23 @@
   font-weight: bold;
   color: white;
   text-align: center;
-  border: 5px white; /* virker ikke */
+  margin-top: 3rem;
+}
+
+.no_underline {
+  border: 1px solid white;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.no_underline {
+  text-decoration: none; /* fjerner understregning fra linket */
 }
 
 .link1 {
   margin-bottom: 6rem;
-}
-
-/* fjerner understregning fra linket */
-.no_underline {
-  text-decoration: none;
 }
 
 /* MOBILVERSION */
