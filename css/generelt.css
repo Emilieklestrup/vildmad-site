@@ -195,4 +195,8 @@ nav a {
   .footer3 img:hover {
     transform: scale(1.06); /* Skalér billedet lidt større ved hover */
   }
+  .logo_pic {
+    max-width: 20%;
+    margin-right: auto; /* Flytter logoet helt til venstre */
+  }
 }
