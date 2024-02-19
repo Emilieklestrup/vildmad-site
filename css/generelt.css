@@ -43,7 +43,7 @@ footer {
 html {
   background-color: rgba(67, 79, 51, 1);
 }
-h1 {
+h1 , h2{
   font-family: protest;
   text-align: center;
   color: white;
