@@ -8,6 +8,9 @@
   font-family: "Inter", sans-serif;
   font-weight: bold;
   color: white;
-  text-align: center;
   border: 5px white; /* virker ikke */
+}
+
+a {
+  text-align: center;
 }
