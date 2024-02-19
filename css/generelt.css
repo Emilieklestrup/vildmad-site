@@ -48,14 +48,12 @@ h1 {
   text-align: center;
   color: white;
 }
-<<<<<<< HEAD
 
 p {
   color: white;
-=======
+}
 .nav-linkactive {
   border-bottom: 2px solid white;
->>>>>>> marias
 }
 .logo_pic {
   max-width: 25%;
