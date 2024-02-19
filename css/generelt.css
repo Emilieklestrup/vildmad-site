@@ -48,19 +48,21 @@ h1 {
   text-align: center;
   color: white;
 }
-
 p {
   color: white;
 }
+
 .nav-linkactive {
   border-bottom: 2px solid white;
 }
+
 .logo_pic {
-  max-width: 25%;
+  max-width: 10%;
+  margin-right: auto; /* Flytter logoet helt til venstre */
 }
+
 .nav {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
 }
 
@@ -69,13 +71,14 @@ nav a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 20px;
-  text-align: right;
   position: relative;
   margin-bottom: -2px;
   padding-bottom: 5px;
 }
+
 .menu {
   display: flex;
+  justify-content: flex-end; /* Flytter menuen helt til højre */
   list-style: none;
   margin: 0;
   padding: 0;
@@ -102,6 +105,7 @@ nav a {
 .menu a:hover {
   color: white;
 }
+
 .burger {
   width: 30px;
   height: 20px;
@@ -115,6 +119,7 @@ nav a {
   margin-bottom: 10px;
   transition: 0.2s linear;
 }
+
 .burger {
   display: none;
 }
