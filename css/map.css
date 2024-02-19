@@ -1,0 +1,13 @@
+.billede img {
+  width: 70%;
+}
+.billede {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px;
+}
+.mushroom {
+  font-size: 1.5rem;
+  padding-top: 70px;
+}
