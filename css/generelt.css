@@ -50,6 +50,7 @@ h1 {
 }
 p {
   color: white;
+  font-family: "Inter", sans-serif;
 }
 
 .nav-linkactive {
