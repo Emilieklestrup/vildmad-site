@@ -13,19 +13,18 @@
   font-weight: bold;
   color: white;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
+/* tilføje ramme til links */
 .no_underline {
   border: 1px solid white;
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 20px;
   padding-right: 20px;
-}
-
-.no_underline {
-  text-decoration: none; /* fjerner understregning fra linket */
+  /* fjerner understregning fra linket */
+  text-decoration: none;
 }
 
 .link1 {
@@ -70,7 +69,8 @@
 
   /* fontstørrelser */
   .overskrift {
-    font-size: 3rem;
+    font-size: 3.5rem;
+    margin-top: 4rem;
   }
 
   .no_underline {
@@ -84,6 +84,6 @@
 
   /* afstand til footeren */
   .link2 {
-    margin-bottom: 10rem;
+    margin-bottom: 15rem;
   }
 }
