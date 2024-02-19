@@ -7,7 +7,8 @@
 }
 
 /* styling af links */
-.link {
+.link1,
+.link2 {
   font-family: "Inter", sans-serif;
   font-weight: bold;
   color: white;
@@ -15,10 +16,38 @@
   border: 5px white; /* virker ikke */
 }
 
-.no_underline {
-  text-decoration: none; /* fjerner understregning fra linket */
+.link1 {
+  margin-bottom: 6rem;
 }
 
+/* fjerner understregning fra linket */
+.no_underline {
+  text-decoration: none;
+}
+
+/* MOBILVERSION */
+@media screen and (max-width: 800px) {
+  /* afstand til footeren */
+  .link2 {
+    margin-bottom: 6rem;
+  }
+
+  /* fontstørrelser */
+  .forsidetekst {
+    font-size: 0.9rem;
+  }
+
+  .no_underline {
+    font-size: 1.25rem;
+  }
+
+  /* afstand til billede */
+  .link1 {
+    margin-bottom: 4rem;
+  }
+}
+
+/* DESKTOPVERSION */
 @media screen and (min-width: 800px) {
   /* beskærer forsidebilledet */
   .container {
@@ -30,5 +59,24 @@
   .forsidebillede {
     width: 100%; /* sætter width til 100 så den udfylder hele containeren */
     height: auto; /* bevarer billedets aspektforhold */
+  }
+
+  /* fontstørrelser */
+  .overskrift {
+    font-size: 3rem;
+  }
+
+  .no_underline {
+    font-size: 1.5rem;
+  }
+
+  /* afstand til billede */
+  .link1 {
+    margin-bottom: 6rem;
+  }
+
+  /* afstand til footeren */
+  .link2 {
+    margin-bottom: 10rem;
   }
 }
