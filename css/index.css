@@ -1,3 +1,5 @@
+/* FORSIDE */
+
 .forsidetekst {
   font-family: "Inter", sans-serif;
   color: white;
@@ -13,14 +15,15 @@
 }
 
 @media screen and (min-width: 800px) {
+  /* beskærer forsidebilledet */
   .container {
     width: 89rem;
     height: 35rem;
-    overflow: hidden;
+    overflow: hidden; /* skjuler overskydende områder */
   }
 
   .forsidebillede {
-    width: 100%;
-    height: auto;
+    width: 100%; /* sætter width til 100 så den udfylder hele containeren */
+    height: auto; /* bevarer billedets aspektforhold */
   }
 }
