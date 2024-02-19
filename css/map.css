@@ -1,0 +1,9 @@
+.billede img {
+  width: 70%;
+}
+.billede {
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  justify-items: center;
+}
