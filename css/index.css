@@ -6,12 +6,17 @@
   text-align: center;
 }
 
+/* styling af links */
 .link {
   font-family: "Inter", sans-serif;
   font-weight: bold;
   color: white;
   text-align: center;
   border: 5px white; /* virker ikke */
+}
+
+.no_underline {
+  text-decoration: none; /* fjerner understregning fra linket */
 }
 
 @media screen and (min-width: 800px) {
