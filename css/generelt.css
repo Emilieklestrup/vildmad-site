@@ -48,8 +48,10 @@ h1 , h2{
   text-align: center;
   color: white;
 }
-p {
+p,
+a {
   color: white;
+  font-family: "Inter", sans-serif;
 }
 
 .nav-linkactive {
