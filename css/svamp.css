@@ -1,3 +1,7 @@
+@font-face {
+  font-family: protest;
+  src: url(../fonts/proteststrike-regular-webfont.woff2);
+}
 img {
   width: 100%;
 }
@@ -5,7 +9,18 @@ h1,
 p {
   color: white;
 }
+h3 {
+  color: white;
+  font-family: protest;
+}
+
 @media screen and (min-width: 800px) {
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 100px;
+    margin-bottom: 70px;
+  }
   .grid1 {
     display: grid;
     grid-template-columns: 1fr 2fr;
