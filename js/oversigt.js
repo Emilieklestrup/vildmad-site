@@ -26,6 +26,8 @@ function showProduct(mushroom) {
   copy.querySelector(".smallProduct h2").textContent = mushroom.title;
   copy.querySelector("img").src = mushroom.images;
 
+  copy.querySelector(".svamp_link").setAttribute("href", `svamp.html?=id${mushroom.id}`);
+
   if ((mushroom.season0 = null)) {
     document.querySelector(".overview").style.display = "none";
   }
