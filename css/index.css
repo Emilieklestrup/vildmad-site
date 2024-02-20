@@ -33,6 +33,11 @@
 
 /* MOBILVERSION */
 @media screen and (max-width: 800px) {
+  .svampetrio {
+    width: 80%;
+    margin-left: 50px;
+  }
+
   /* afstand til footeren */
   .link2 {
     margin-bottom: 6rem;
@@ -67,6 +72,12 @@
     height: auto; /* bevarer billedets aspektforhold */
   }
 
+  /* centrerer og gøre svampebillede mindre */
+  .svampetrio {
+    width: 50%;
+    margin-left: 345px;
+  }
+
   /* fontstørrelser */
   .overskrift {
     font-size: 3.5rem;
@@ -79,7 +90,7 @@
 
   /* afstand til billede */
   .link1 {
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
   }
 
   /* afstand til footeren */
