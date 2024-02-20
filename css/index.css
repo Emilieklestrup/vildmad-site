@@ -1,13 +1,105 @@
+/* FORSIDE */
+
 .forsidetekst {
   font-family: "Inter", sans-serif;
   color: white;
   text-align: center;
 }
 
-.link {
+/* styling af links */
+.link1,
+.link2 {
   font-family: "Inter", sans-serif;
   font-weight: bold;
   color: white;
   text-align: center;
-  border: 5px white; /* virker ikke */
+  margin-top: 2rem;
+}
+
+/* tilføje ramme til links */
+.no_underline {
+  border: 1px solid white;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* fjerner understregning fra linket */
+  text-decoration: none;
+}
+
+.link1 {
+  margin-bottom: 6rem;
+}
+
+/* MOBILVERSION */
+@media screen and (max-width: 800px) {
+  /* centrerer og gøre svampebillede mindre */
+  .svampetrio {
+    width: 80%;
+    margin-left: 50px;
+  }
+
+  /* afstand til footeren */
+  .link2 {
+    margin-bottom: 6rem;
+  }
+
+  /* fontstørrelser */
+  .overskrift {
+    font-size: 2.2rem;
+  }
+
+  .forsidetekst {
+    font-size: 0.9rem;
+  }
+
+  .no_underline {
+    font-size: 1.25rem;
+  }
+
+  /* afstand til billede */
+  .link1 {
+    margin-bottom: 4rem;
+  }
+}
+
+/* DESKTOPVERSION */
+@media screen and (min-width: 800px) {
+  /* beskærer forsidebilledet */
+  .container {
+    width: 89rem;
+    height: 35rem;
+    overflow: hidden; /* skjuler overskydende områder */
+  }
+
+  .forsidebillede {
+    width: 100%; /* sætter width til 100 så den udfylder hele containeren */
+    height: auto; /* bevarer billedets aspektforhold */
+  }
+
+  /* centrerer og gøre svampebillede mindre */
+  .svampetrio {
+    width: 50%;
+    margin-left: 345px;
+  }
+
+  /* fontstørrelser */
+  .overskrift {
+    font-size: 3.5rem;
+    margin-top: 4rem;
+  }
+
+  .no_underline {
+    font-size: 1.5rem;
+  }
+
+  /* afstand til billede */
+  .link1 {
+    margin-bottom: 4rem;
+  }
+
+  /* afstand til footeren */
+  .link2 {
+    margin-bottom: 15rem;
+  }
 }
