@@ -103,3 +103,35 @@
     margin-bottom: 15rem;
   }
 }
+
+/* IPADVERSION TIL AIR */
+@media only screen and (min-device-width: 820px) and (max-device-width: 1180px) {
+  /* beskærer forsidebilledet */
+  .container {
+    width: 50.25rem;
+    height: 25rem;
+    overflow: hidden; /* skjuler overskydende områder */
+  }
+
+  .forsidebillede {
+    width: 100%; /* sætter width til 100 så den udfylder hele containeren */
+    height: auto; /* bevarer billedets aspektforhold */
+  }
+
+  /* centrerer og gøre svampebillede mindre */
+  .svampetrio {
+    width: 60%;
+    margin-left: 170px;
+  }
+
+  /* fontstørrelse og margin */
+  .forsidetekst {
+    font-size: 1rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .link2 {
+    margin-bottom: 10rem;
+  }
+}
