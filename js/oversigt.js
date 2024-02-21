@@ -18,7 +18,7 @@ function showProducts(mushroom) {
   mushroom.forEach(showProduct);
 }
 
-function showProduct(mushroom) {
+function showProduct(mushroom, index) {
   console.log("her kommer en svamp:, ", mushroom);
   const template = document.querySelector("#template1").content;
   const copy = template.cloneNode(true);
