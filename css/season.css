@@ -1,12 +1,10 @@
-/*MAIN*/
-
-.grid_2 {
+.grid_4 {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  gap: 4rem;
-  max-width: 1200px;
-  margin: 0 auto;
-  justify-content: center;
+  grid-template-columns: 1fr 1fr; /* To kolonner med samme bredde */
+  justify-content: center; /* Centrerer gitteret vandret */
+  gap: 20px; /* Tilføjer lidt afstand mellem kolonnerne */
+  width: 80%; /* Tilføj den ønskede bredde */
+  margin: 0 auto; /* Centrerer .grid_2 containeren vandret */
 }
 
 article {
@@ -17,30 +15,34 @@ article {
   position: relative;
   border: solid white 1px;
 }
-
-.oversigt_billede {
-  max-width: 50%;
+.season {
+  display: flex;
+  justify-content: center; /* Centrerer indholdet vandret */
+  align-items: center; /* Centrerer indholdet lodret */
+  text-align: center; /* Centrerer teksten */
+  width: 100%; /* Sørger for, at .overview elementerne fylder hele bredden af deres container */
 }
 
-.oversigt_tekst {
-  color: white;
-  text-decoration: none;
-  text-align: center;
+.Seasons {
+  width: 100%; /* Bredden på hvert .overview element (juster efter behov) */
+  max-width: 400px; /* Eksempel: Begræns bredden til 300px */
 }
 
-.oversigt_info {
+.season_billede {
+  max-width: 100%; /* Sørg for, at billedet ikke overstiger bredden af dets parent container */
+}
+.season_info {
   max-width: 600px;
   margin: 0 auto;
   justify-content: center;
   font-size: 18px;
-  line-height: 1;
+  line-height: 2;
   text-align: center;
   margin-bottom: 2em;
 }
-
-.knapp {
-  margin: 0 auto;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  margin-bottom: 2em;
+@media screen and (max-width: 800px) {
+  .grid_2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
