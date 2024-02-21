@@ -41,12 +41,14 @@
 
   .overlay {
     position: absolute;
-    top: 80%;
-    left: 69%;
+    top: 84%;
+    left: 69.5%;
     transform: translate(-50%, -50%);
     text-align: center;
     background-color: rgba(46, 55, 34, 0.849);
     margin: -100px;
+    width: 97vw;
+    height: 55vw;
   }
 
   .overlay h2,

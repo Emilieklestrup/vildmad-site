@@ -9,6 +9,7 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 70px;
+  margin-top: 5em;
 }
 .footer2 {
   display: grid;
@@ -43,7 +44,8 @@ footer {
 html {
   background-color: rgba(67, 79, 51, 1);
 }
-h1 , h2{
+h1,
+h2 {
   font-family: protest;
   text-align: center;
   color: white;

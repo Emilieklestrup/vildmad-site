@@ -5,7 +5,6 @@ const id = urlParams.get("id");
 
 const url = `https://dnrbmiiducergeuxsuzz.supabase.co/rest/v1/vildmad?id=eq.${id}`;
 console.log("lort");
-
 fetch(url, {
   method: "GET",
   headers: {
