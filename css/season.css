@@ -41,7 +41,7 @@ article {
   margin-bottom: 2em;
 }
 @media screen and (max-width: 800px) {
-  .grid_2 {
+  .grid_4 {
     display: grid;
     grid-template-columns: 1fr;
   }
