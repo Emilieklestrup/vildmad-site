@@ -3,7 +3,7 @@ console.log("siden er loaded");
 const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get("id");
 
-const url = `https://dnrbmiiducergeuxsuzz.supabase.co/rest/v1/vildmad`;
+const url = `https://dnrbmiiducergeuxsuzz.supabase.co/rest/v1/vildmad?id=eq.${id}`;
 console.log("lort");
 
 fetch(url, {
@@ -13,16 +13,11 @@ fetch(url, {
   },
 })
   .then((response) => response.json())
-  .then((data) => showProducts(data));
+  .then((data) => showProduct(data));
 
-function showProducts(mushroom) {
-  console.log("her kommer mine mushroom: ", mushroom);
-  mushroom.forEach(showProduct);
-}
 function showProduct(mushroom) {
   console.log(mushroom);
-
   document.querySelector("h1").textContent = mushroom.title;
-  document.querySelector(".beskrivelse p").textContent = mushroom.decription;
+  document.querySelector("p").textContent = mushroom.description;
   document.querySelector(".grid1 img").src = mushroom.images;
 }
