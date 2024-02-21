@@ -13,7 +13,6 @@ article {
   padding: 10px;
   border-radius: 5px;
   position: relative;
-  border: solid white 1px;
 }
 .season {
   display: flex;
@@ -26,6 +25,7 @@ article {
 .Seasons {
   width: 100%; /* Bredden på hvert .overview element (juster efter behov) */
   max-width: 400px; /* Eksempel: Begræns bredden til 300px */
+  border: solid white 1px;
 }
 
 .season_billede {
