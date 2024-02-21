@@ -44,7 +44,7 @@
   margin: 10px; /* Tilføj lidt plads mellem produkterne */
 }
 
-article {
+.overview {
   /* Tilpas stilen på hvert produktartikel efter behov */
   background-color: rgba(46, 55, 34, 1);
   padding: 10px;
