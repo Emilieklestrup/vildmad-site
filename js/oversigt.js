@@ -17,9 +17,10 @@ fetch(url, {
 function showProducts(mushrooms) {
   console.log("her kommer mine mushroom: ", mushrooms);
   if (season) {
+    //* hvis der står season i url'en skal følgende ske: *//
     mushrooms = mushrooms
-      .sort(() => (Math.random() > 0.5 ? 1 : -1))
-      .slice(0, Math.random() * 3 + 4);
+      .sort(() => (Math.random() > 0.5 ? 1 : -1)) //* sort = sortering, så man sorterer det efter et tilfældigt tal *//
+      .slice(0, Math.random() * 3 + 4); //* slice = opdeler det, så den tager et antal mellem 3-7 *//
   }
 
   mushrooms.forEach(showProduct);
