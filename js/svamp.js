@@ -19,6 +19,6 @@ function showProduct(data) {
   console.log(data);
   mushroom = data[0];
   document.querySelector("h1").textContent = mushroom.title;
-  document.querySelector("p").textContent = mushroom.description;
+  document.querySelector("p").textContent = mushroom.decription;
   document.querySelector(".grid1 img").src = mushroom.images;
 }
